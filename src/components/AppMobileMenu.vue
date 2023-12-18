@@ -2,7 +2,7 @@
   <div>
     <div class="flex justify-between items-center">
       <AppLogo/>
-      <div>
+      <div class="flex items-center">
         <div
             class="w-16 h-6 text-xs"
             v-for="lang in $store.state.languages"

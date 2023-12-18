@@ -5,7 +5,7 @@
       <MenuItems v-for="item in $store.state.menuItems" :key="item.title" :title="item.title"
                  :is-active="$store.state.activeMenu === item.title"/>
     </div>
-    <div class="w-20 h-14 flex flex-col justify-between items-start max-sm:hidden max-md:hidden max-lg:hidden">
+    <div class="w-20 h-14 flex flex-col justify-center items-start max-sm:hidden max-md:hidden max-lg:hidden">
       <span v-for="lang in $store.state.languages" :key="lang">{{ lang }}</span>
     </div>
     <div class="xl:hidden lg:hidden">

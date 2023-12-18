@@ -14,7 +14,7 @@ export default createStore({
             {title: 'join us'},
             {title: 'contacts'}
         ],
-        languages: ['Arm', 'Eng']
+        languages: ['Arm'],
     },
     mutations: {
         toggleMenu(state) {
@@ -24,5 +24,5 @@ export default createStore({
     },
     getters: {},
     actions: {},
-    modules: {}
+    modules: {},
 })
