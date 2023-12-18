@@ -2,6 +2,8 @@ import {createStore} from "vuex";
 
 export default createStore({
     state: {
+        title: String,
+        isActive: Boolean,
         toggle: Boolean,
         activeMenu: '',
         showMenu: true,
@@ -20,6 +22,12 @@ export default createStore({
         toggleMenu(state) {
             state.isOpen = !state.isOpen;
             state.isMobileMenuOpen = !state.isMobileMenuOpen;
+        },
+        classes(state) {
+            return {
+                'container p-4': true,
+                'border-pink-600': state.isActive,
+            };
         },
     },
     getters: {},

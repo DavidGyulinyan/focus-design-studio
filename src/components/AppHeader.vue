@@ -2,8 +2,7 @@
   <header class="flex justify-between items-center sm:flex-row md:flex-row sm:justify-between md:justify-between">
     <AppLogo/>
     <div class="w-4/5 menu-items-wrapper flex justify-center items-center" v-show="$store.state.showMenu">
-      <MenuItems v-for="item in $store.state.menuItems" :key="item.title" :title="item.title"
-                 :is-active="$store.state.activeMenu === item.title"/>
+      <MenuItems />
     </div>
     <div class="w-20 h-14 flex flex-col justify-center items-start max-sm:hidden max-md:hidden max-lg:hidden">
       <span v-for="lang in $store.state.languages" :key="lang">{{ lang }}</span>

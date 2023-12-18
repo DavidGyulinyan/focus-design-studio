@@ -1,28 +1,25 @@
 <template>
-  <button class="uppercase" :class="computedClasses">
+  <button
+      class="uppercase"
+      :class="$store.commit('classes')"
+      v-for="item in $store.state.menuItems"
+      :key="item.title"
+      :is-active="$store.state.activeMenu === item.title"
+  >
     <span></span>
     <span></span>
     <span></span>
     <span></span>
-    {{ title }}
+    {{ item.title }}
   </button>
 </template>
 
 <script>
-export default {
+/*export default {
   props: {
-    title: String,
-    isActive: Boolean,
-  },
-  computed: {
-    computedClasses() {
-      return {
-        'container p-4': true,
-        'border-pink-600': this.isActive,
-      };
-    },
-  },
-};
+    title: String
+  }
+}*/
 </script>
 
 <style scoped>
