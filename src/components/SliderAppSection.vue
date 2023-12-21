@@ -10,7 +10,7 @@
           :loop="true"
           :pagination="{clickable: true}"
           :autoplay="{
-      delay: 5000,
+      delay: 7000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true
     }"
@@ -62,11 +62,11 @@ export default {
     const swiperTextBase = ref([
       {
         id: 1,
-        img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg"
+        img: "https://media.architecturaldigest.com/photos/560468847da26e3235ad8eba/16:9/w_2560%2Cc_limit/intern-set-design-02.jpg"
       },
       {
         id: 2,
-        img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg"
+        img: "https://res.cloudinary.com/gray-malin/image/upload/c_scale/gray-malin/blog-uploads/ANTH_Gray-Malin_129_post_PD.jpg-1-1QPRQ"
       },
       {
         id: 3,

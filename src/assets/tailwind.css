@@ -3,16 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #000;
-}
-
 @layer utilities {
     .no-scrollbar::-webkit-scrollbar {
         display: none;
@@ -20,5 +10,30 @@ body {
     .no-scrollbar {
         -ms-overflow-style: none;
         scrollbar-width: none;
+
     }
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/*border: 1px solid red;*/
+}
+
+body {
+background-color: #000;
+}
+
+
+.swiper-wrapper {
+    height: 500px;
+}
+
+.swiper-pagination-bullet {
+    border: 1px solid #fff;
+}
+.swiper-pagination-bullet-active {
+    background-color: #FF178F;
+    border: 1px solid #FF178F;
 }

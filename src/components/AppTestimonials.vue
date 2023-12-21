@@ -1,16 +1,14 @@
 <template>
-  <section class="w-full flex justify-center items-center mt-36">
+  <section class="w-full h-full flex justify-center items-center mt-36 mb-36">
     <div class="w-4/5 h-3/5">
       <swiper
+          class="cursor-pointer"
           :modules="modules"
           :slides-per-view="3"
           :space-between="50"
-          @swiper="onSwiper"
           :loop="true"
           :pagination="{
-            clickable: true,
-             el: `swiper-container swiper-container-testClass`,
-             bulletClass: `swiper-pagination-bullet swiper-pagination-testClass`
+            clickable: true
             }"
           :autoplay="{
       delay: 5000,
@@ -31,7 +29,7 @@
           <p class="text-2xl">
             {{ item.title }}
           </p>
-          <p class="h-36 py-5 overflow-y-scroll overflow-hidden no-scrollbar">
+          <p class="h-40 pb-5 overflow-y-scroll overflow-hidden no-scrollbar">
             {{ item.description }}
           </p>
 
@@ -58,27 +56,27 @@ export default {
         id: 1,
         img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg",
         title: 'Name Surname',
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?"
+        description: "Lorem ipsum dolor 😊 sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit👍👍👍👍👍😍😍. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?"
       },
       {
         id: 2,
         img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg",
         title: 'Name Surname',
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
+        description: "Lorem ipsum dolor sit amet 💖💖💖💖🥰🥰🥰, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
 
       },
       {
         id: 3,
         img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg",
         title: 'Name Surname',
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur, facere illo, neque obcaecati reprehenderit tempora?"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur, facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
 
       },
       {
         id: 3,
         img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg",
         title: 'Name Surname',
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,👌💕 consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
 
       },
     ])
