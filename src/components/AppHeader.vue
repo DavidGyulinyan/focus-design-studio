@@ -4,8 +4,14 @@
     <div class="w-4/5 menu-items-wrapper flex justify-center items-center" v-show="$store.state.showMenu">
       <MenuItems />
     </div>
-    <div class="w-20 h-14 flex flex-col justify-center items-start max-sm:hidden max-md:hidden max-lg:hidden">
-      <span v-for="lang in $store.state.languages" :key="lang">{{ lang }}</span>
+    <div class="w-48 h-14 flex flex-col justify-center items-center max-sm:hidden max-md:hidden max-lg:hidden">
+      <span
+          v-for="lang in $store.state.languages"
+          :key="lang"
+          class="cursor-pointer"
+      >
+        {{ lang }}
+      </span>
     </div>
     <div class="xl:hidden lg:hidden">
       <AppToggleMobile/>

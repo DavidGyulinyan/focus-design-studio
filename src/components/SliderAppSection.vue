@@ -10,7 +10,7 @@
           :loop="true"
           :pagination="{clickable: true}"
           :autoplay="{
-      delay: 7000,
+      delay: 5000,
       disableOnInteraction: false,
       pauseOnMouseEnter: true
     }"
@@ -34,17 +34,11 @@
       </button>
     </a>
 
-    <div class="px-4 md:px-32 text-base md:text-lg lg:text-xl">
-      <p>
+    <div class="text-base md:text-lg lg:text-xl flex justify-center">
+      <p class="w-2/4 text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
         eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
-        nisl congue. Ut justo sapien, scelerisque eu posuere sed, bibendum vel augue. Curabitur id auctor ligula. Sed
-        bibendum nisl nec quam placerat accumsan. Curabitur fringilla, turpis id mattis facilisis, velit lorem
-        scelerisque
-        nisi, sed volutpat massa augue ut nibh. Donec rhoncus pharetra lectus in tristique. Aenean in ipsum nisi. Cras a
-        tellus molestie, fermentum sapien a, sollicitudin sapien. Donec tincidunt augue nec quam vestibulum pretium eu
-        non
-        massa.
+        nisl congue.
       </p>
     </div>
   </section>

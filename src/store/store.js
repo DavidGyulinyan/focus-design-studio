@@ -9,14 +9,15 @@ export default createStore({
         showMenu: true,
         isOpen: false,
         isMobileMenuOpen: false,
+        languages: ['Arm'],
+        projectTypes: ['Architecture', 'Interior Design'],
         menuItems: [
             {title: 'projects'},
             {title: 'services'},
             {title: 'about us'},
             {title: 'join us'},
-            {title: 'contacts'}
+            {title: 'contacts'},
         ],
-        languages: ['Arm'],
     },
     mutations: {
         toggleMenu(state) {

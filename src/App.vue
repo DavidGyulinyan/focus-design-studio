@@ -7,7 +7,7 @@
 
 <script setup>
 import {RouterView} from "vue-router";
-import AppNavigation from "@/components/AppNavigation.vue";
+import AppNavigation from "@/components/AppMain.vue";
 </script>
 
 <style lang="scss" scoped></style>
