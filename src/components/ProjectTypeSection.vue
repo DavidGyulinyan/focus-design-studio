@@ -5,7 +5,7 @@
         <div
             v-for="item of projectTypes"
             :key="item.id"
-            class="group w-3/5 h-full flex flex-col justify-center items-start gap-8">
+            class="group w-3/5 max-sm:w-full max-md:w-5/6 max-lg:w-11/12 h-full flex flex-col justify-center items-start gap-8">
         <span class="lg:text-5xl md:text-4xl sm:text-3xl max-sm:text-xl font-light cursor-pointer group-hover:text-pink-600 transition-all">
           {{ item.title }}
         </span>
