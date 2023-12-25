@@ -7,6 +7,7 @@ export default createStore({
         toggle: Boolean,
         activeMenu: '',
         showMenu: true,
+        isView: 3,
         isOpen: false,
         isMobileMenuOpen: false,
         languages: ['Arm'],
