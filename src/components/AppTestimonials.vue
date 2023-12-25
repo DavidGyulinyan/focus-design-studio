@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import {ref, onMounted, onBeforeUnmount, watchEffect} from "vue";
+import {ref, onMounted, onBeforeUnmount} from "vue";
 import {Swiper, SwiperSlide} from 'swiper/vue';
 import {Autoplay, Pagination} from "swiper/modules";
 import 'swiper/css';
