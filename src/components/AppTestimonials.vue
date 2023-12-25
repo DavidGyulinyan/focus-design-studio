@@ -1,40 +1,42 @@
 <template>
-  <section class="w-full h-full flex justify-center items-center mt-36 mb-36">
-    <div class="w-4/5 h-3/5">
-      <swiper
-          class="cursor-pointer"
-          :modules="modules"
-          :slides-per-view="3"
-          :space-between="50"
-          :loop="true"
-          :pagination="{
+  <section class="w-full flex justify-center items-center mt-64 mb-36 gap-24">
+    <div class="w-full flex-col flex justify-center items-center">
+      <span class="text-5xl">Client about us</span>
+      <div class="w-5/6 mt-40">
+        <swiper
+            class="mySwiper h-[400px]"
+            :modules="modules"
+            :slides-per-view="3"
+            :space-between="50"
+            :loop="true"
+            :pagination="{
             clickable: true
             }"
-          :autoplay="{
-      delay: 5000,
-      disableOnInteraction: true,
+            :autoplay="{
+      delay: 3000,
       pauseOnMouseEnter: true
     }"
-      >
-        <swiper-slide
-            class="flex flex-col items-center justify-center gap-8"
-            v-for="item in swiperTextBase"
-            :key="item.id"
         >
-          <img
-              class="w-20 h-20 rounded-full"
-              :src="item.img"
-              alt="img"
+          <swiper-slide
+              class="h-80 flex flex-col items-center justify-center gap-8"
+              v-for="item in swiperTextBase"
+              :key="item.id"
           >
-          <p class="text-2xl">
-            {{ item.title }}
-          </p>
-          <p class="h-40 pb-5 overflow-y-scroll overflow-hidden no-scrollbar">
-            {{ item.description }}
-          </p>
+            <img
+                class="w-20 h-20 rounded-full"
+                :src="item.img"
+                alt="User Photo"
+            >
+            <p class="text-2xl">
+              {{ item.title }}
+            </p>
+            <p class="w-7/8 h-40 overflow-y-scroll overflow-hidden no-scrollbar">
+              {{ item.description }}
+            </p>
 
-        </swiper-slide>
-      </swiper>
+          </swiper-slide>
+        </swiper>
+      </div>
     </div>
   </section>
 </template>
@@ -87,3 +89,13 @@ export default {
   },
 };
 </script>
+
+<style>
+.swiper-pagination-bullet {
+  background-color: #FF178F;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FF178F;
+}
+</style>

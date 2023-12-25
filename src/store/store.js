@@ -10,7 +10,6 @@ export default createStore({
         isOpen: false,
         isMobileMenuOpen: false,
         languages: ['Arm'],
-        projectTypes: ['Architecture', 'Interior Design'],
         menuItems: [
             {title: 'projects'},
             {title: 'services'},

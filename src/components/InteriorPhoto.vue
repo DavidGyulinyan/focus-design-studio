@@ -3,13 +3,13 @@
     <img
          :src="image"
          alt="interior photo"
-         class="w-1/2"
+         class="w-3/5 h-3/5"
     >
   </div>
 </template>
 
 <script>
-import image from "../assets/testImagesFolder/323352287_5936254923063030_4971183037352376912_n.jpg"
+import image from "../assets/testImagesFolder/109400833_144990773884210_8771481519331202718_n.jpg"
 
 export default {
   data: function () {

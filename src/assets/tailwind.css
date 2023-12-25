@@ -24,16 +24,3 @@ box-sizing: border-box;
 body {
 background-color: #000;
 }
-
-
-.swiper-wrapper {
-    height: 500px;
-}
-
-.swiper-pagination-bullet {
-    border: 1px solid #fff;
-}
-.swiper-pagination-bullet-active {
-    background-color: #FF178F;
-    border: 1px solid #FF178F;
-}

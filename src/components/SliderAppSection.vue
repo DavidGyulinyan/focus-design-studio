@@ -1,26 +1,34 @@
 <template>
-  <section class="flex flex-col items-center">
+  <section class="mt-36 h-full flex flex-col items-center">
     <div class="mt-8 mb-4 text-3xl text-center">
       <span>Focus Design Studio</span>
     </div>
     <div class="swiper-container w-full">
       <swiper
+          class="relative flex justify-start items-center"
+          :direction="'vertical'"
           :modules="modules"
-          :space-between="20"
+          :space-between="400"
           :loop="true"
           :pagination="{clickable: true}"
           :autoplay="{
       delay: 7000,
-      disableOnInteraction: false,
       pauseOnMouseEnter: true
     }"
+          :effect="'fade'"
+          :fadeEffect="{ crossFade: true }"
       >
+        <div
+            class="w-0 h-full bg-black opacity-70 absolute top-0 left-0 z-10 xl:hidden lg:hidden transition-all overflow-hidden"
+            :class="{ 'w-1/2' : $store.state.isOpen }">
+          <AppMobileMenu/>
+        </div>
         <swiper-slide
             v-for="item in swiperTextBase"
             :key="item.id"
             class="flex justify-center items-center"
         >
-          <img class="w-full" :src="item.img" :alt="'slider images'">
+          <img class="w-full object-contain" :src="item.img" :alt="'slider images'">
         </swiper-slide>
       </swiper>
     </div>
@@ -45,14 +53,16 @@
 </template>
 
 <script>
+import AppMobileMenu from "@/components/AppMobileMenu.vue";
 import {Swiper, SwiperSlide} from 'swiper/vue'
-import {Autoplay, Pagination} from "swiper/modules"
+import {Autoplay, Pagination, EffectFade} from "swiper/modules"
 import 'swiper/css'
 import 'swiper/css/pagination'
+import 'swiper/css/effect-fade';
 import {ref} from 'vue'
 
 export default {
-  components: {Swiper, SwiperSlide},
+  components: {Swiper, SwiperSlide, AppMobileMenu},
   props: {
     title: String,
     isActive: Boolean,
@@ -73,16 +83,13 @@ export default {
         img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg",
       },
     ])
-    return {modules: [Pagination, Autoplay], swiperTextBase}
+    return {modules: [Pagination, Autoplay, EffectFade], swiperTextBase}
   }
 }
 </script>
 
-<style scoped>
-@media (min-width: 768px) {
-  .swiper-container {
-    max-width: 940px;
-    margin: 0 auto;
-  }
+<style>
+.swiper-wrapper {
+  height: 800px;
 }
 </style>

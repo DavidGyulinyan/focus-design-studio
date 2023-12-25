@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center sm:flex-row md:flex-row sm:justify-between md:justify-between">
+  <header class="w-full fixed top-0 z-50 bg-black flex justify-between items-center sm:flex-row md:flex-row sm:justify-between md:justify-between">
     <AppLogo/>
     <div class="w-4/5 menu-items-wrapper flex justify-center items-center" v-show="$store.state.showMenu">
       <MenuItems />
