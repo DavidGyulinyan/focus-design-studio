@@ -30,7 +30,7 @@
             <p class="text-2xl">
               {{ item.title }}
             </p>
-            <p class="w-7/8 h-40 p-5 overflow-y-scroll overflow-hidden no-scrollbar flex justify-center items-center">
+            <p class="w-7/8 h-40 pl-2 overflow-hidden overflow-y-scroll no-scrollbar">
               {{ item.description }}
             </p>
 
@@ -88,7 +88,7 @@ export default {
         id: 1,
         img: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg",
         title: 'Name Surname',
-        description: "Lorem ipsum dolor 😊 sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit👍👍👍👍👍😍😍. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae nam nemo nesciunt odit pariatur quae quos? Aliquid architecto assumenda aut eos error est, facere illo, neque obcaecati reprehenderit tempora?"
+        description: "Լորեմ իպսում դոլոր 😊 սիտ ամեն՝, կոնսեկտետուր ադիփիսիցինգ էլիտ: Էնիմ մոլեստիաե նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։ Լորեմ իպսում դոլոր սիտ ամեն՝, կոնսեկտետուր ադիփիսիցինգ էլիտ👍👍👍👍👍😍😍: Էնիմ մոլեստիաե նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։ նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։ Լորեմ իպսում դոլոր սիտ ամեն՝, կոնսեկտետուր ադիփիսիցինգ էլիտ: Էնիմ մոլեստիաե նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։"
       },
       {
         id: 2,
