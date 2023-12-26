@@ -23,6 +23,8 @@
 
 <script>
 import {ref} from "vue";
+import img from "../assets/testImagesFolder/12.jpg"
+import img1 from "../assets/testImagesFolder/22..jpg"
 
 export default {
   setup() {
@@ -30,13 +32,13 @@ export default {
       {
         id: 2,
         title: 'Interior Design',
-        image: "https://media.architecturaldigest.com/photos/560468847da26e3235ad8eba/16:9/w_2560%2Cc_limit/intern-set-design-02.jpg",
+        image: img,
         alt: "Interior photo"
       },
       {
-        id: 1,
+        id: 2,
         title: 'Architecture',
-        image: "https://www.build-review.com/wp-content/uploads/2023/02/Minimalist.jpeg",
+        image: img1,
         alt: "Architecture photo"
       },
     ])
