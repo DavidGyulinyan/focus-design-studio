@@ -1,8 +1,5 @@
 <template>
-  <section class="mt-36 h-full flex flex-col items-center">
-    <div class="mt-8 mb-4 text-3xl text-center">
-      <span>Focus Design Studio</span>
-    </div>
+  <section class="mt-28 flex flex-col items-center">
     <div class="swiper-container w-full">
       <swiper
           class="relative flex justify-start items-center"
@@ -86,13 +83,16 @@ export default {
         img: img3
       },
     ])
-    return {modules: [Pagination, Autoplay, EffectFade], swiperTextBase}
+    return {
+      modules: [Pagination, Autoplay, EffectFade],
+      swiperTextBase
+    }
   }
 }
 </script>
 
 <style>
 .swiper-wrapper {
-  height: 800px;
+  height: 950px;
 }
 </style>

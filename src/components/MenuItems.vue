@@ -14,14 +14,6 @@
   </button>
 </template>
 
-<script>
-/*export default {
-  props: {
-    title: String
-  }
-}*/
-</script>
-
 <style scoped>
 button {
   width: 140px;

@@ -1,6 +1,5 @@
 <template>
   <div class="h-full">
-
     <ul class="w-full h-full flex flex-col justify-center">
       <div class="flex justify-end items-start">
         <div
@@ -22,12 +21,3 @@
   </div>
 
 </template>
-
-<script>
-import {defineComponent} from "vue";
-import AppLogo from "@/components/AppLogo.vue";
-
-export default defineComponent({
-  components: {AppLogo},
-})
-</script>
