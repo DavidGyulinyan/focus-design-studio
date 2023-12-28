@@ -110,7 +110,7 @@ button:hover span:nth-child(4) {
 }
 
 @media (max-width: 1024px) {
-  button{
+  button {
     font-size: initial;
     letter-spacing: normal;
   }

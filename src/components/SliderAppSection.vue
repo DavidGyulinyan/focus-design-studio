@@ -16,7 +16,7 @@
           :fadeEffect="{ crossFade: true }"
       >
         <div
-            class="w-0 bg-black opacity-70 absolute top-0 left-0 z-10 xl:hidden lg:hidden transition-all overflow-hidden"
+            class="w-0 h-full bg-black opacity-70 absolute top-0 left-0 z-10 xl:hidden lg:hidden transition-all overflow-hidden"
             :class="{ 'w-1/2' : $store.state.isOpen } ">
           <AppMobileMenu/>
         </div>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="text-base md:text-lg lg:text-xl flex justify-center">
-      <p class="w-2/4 text-center">
+      <p class="w-2/4 text-center max-md:w-4/5 max-lg:w-11/12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
         eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
         nisl congue.

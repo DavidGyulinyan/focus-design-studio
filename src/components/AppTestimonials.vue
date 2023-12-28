@@ -30,7 +30,7 @@
             <p class="text-2xl">
               {{ item.title }}
             </p>
-            <p class="w-7/8 max-md:w-4/5 max-lg:w-11/12 max-xl:w-full h-40 text-balance px-5 overflow-hidden overflow-y-scroll no-scrollbar flex justify-center">
+            <p class="w-7/8 max-md:w-4/5 max-lg:w-11/12 max-xl:w-full h-40 px-5 max-lg:px-0 overflow-hidden overflow-y-scroll no-scrollbar flex justify-center">
               {{ item.description }}
             </p>
 
@@ -92,13 +92,13 @@ export default {
         id: 1,
         img: img1,
         title: 'Name Surname',
-        description: "Լորեմ իպսում դոլոր 😊 սիտ ամեն՝, կոնսեկտետուր ադիփիսիցինգ էլիտ: Էնիմ մոլեստիաե նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։ Լորեմ իպսում դոլոր սիտ ամեն՝, կոնսեկտետուր ադիփիսիցինգ էլիտ👍👍👍👍👍😍😍: Էնիմ մոլեստիաե նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։ նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։ Լորեմ իպսում դոլոր սիտ ամեն՝, կոնսեկտետուր ադիփիսիցինգ էլիտ: Էնիմ մոլեստիաե նամ նեմո նեսցիունտ ոդիտ պարիատուր քոս? Ալիքվիդ արքիտեկտո ասումենդա աուտ էոս եռրոր եստ, ֆացերե իլլո, նեքոեբգաեցատի րեպրեհենդերիտ տեմպորա։"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
       },
       {
         id: 2,
         img: img2,
         title: 'Name Surname',
-        description: "Lorem ipsum dolor sit amet 💖💖💖💖🥰🥰🥰, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
 
       },
       {
@@ -112,14 +112,14 @@ export default {
         id: 3,
         img: img4,
         title: 'Name Surname',
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,👌💕 consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
 
       },
       {
         id: 4,
         img: img4,
         title: 'Name Surname',
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,👌💕 consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit.  facere illo, neque obcaecati reprehenderit tempora?"
 
       },
     ])

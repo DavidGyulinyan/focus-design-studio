@@ -1,8 +1,9 @@
 <template>
-  <header class="w-full fixed top-0 z-50 opacity-75 bg-black flex justify-between items-center sm:flex-row md:flex-row sm:justify-between md:justify-between">
+  <header
+      class="w-full fixed top-0 z-50 opacity-75 bg-black flex justify-between items-center sm:flex-row md:flex-row sm:justify-between md:justify-between">
     <AppLogo/>
     <div class="w-4/5 menu-items-wrapper flex justify-center items-center" v-show="$store.state.showMenu">
-      <MenuItems />
+      <MenuItems/>
     </div>
     <div class="w-48 flex flex-col justify-center items-center max-sm:hidden max-md:hidden max-lg:hidden">
       <span

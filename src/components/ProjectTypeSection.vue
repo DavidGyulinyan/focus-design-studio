@@ -1,15 +1,17 @@
 <template>
-  <section class="w-full flex justify-center items-center mt-64">
-    <div class="w-full flex justify-center items-center">
-      <div class="w-full max-md:w-6/8 h-1/2 flex max-lg:flex-col justify-around items-center cursor-pointer gap-14">
+  <section class="w-full flex flex-col justify-center items-center mt-64">
+    <span class="text-5xl">Services</span>
+    <div class="w-full flex justify-center items-center mt-40">
+      <div class="w-full flex max-lg:flex-col justify-around items-center cursor-pointer gap-14">
         <div
             v-for="item of projectTypes"
             :key="item.id"
-            class="group w-1/2 max-sm:w-full max-md:w-5/6 max-lg:w-11/12 h-full flex flex-col justify-center items-start gap-8 relative"
+            class="group w-full max-sm:w-full max-md:w-5/6 max-lg:w-11/12 h-full flex flex-col justify-center items-start gap-8 relative"
         >
-        <div class="w-full h-20 absolute bottom-0 left-0 z-10 text-pink-600 text-3xl bg-black opacity-70 pt-1 pl-5 group-hover:text-white transition-allg">
-          {{ item.title }}
-        </div>
+          <div
+              class="w-full h-20 absolute bottom-0 left-0 z-10 text-pink-600 text-3xl bg-black opacity-70 pt-1 pl-5 group-hover:text-white transition-all max-max-md:text-3xl">
+            {{ item.title }}
+          </div>
           <img
               class="grayscale w-full h-full object-cover group-hover:grayscale-0 transition-all"
               :src="item.image"

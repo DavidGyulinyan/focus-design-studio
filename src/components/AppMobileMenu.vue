@@ -15,7 +15,7 @@
           v-for="item in $store.state.menuItems"
           :key="item"
       >
-        {{ item.title}}
+        {{ item.title }}
       </li>
     </ul>
   </div>
