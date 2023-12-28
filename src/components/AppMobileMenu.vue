@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full">
+  <div class="h-full flex">
     <ul class="w-full h-full flex flex-col justify-center">
       <div class="flex justify-end items-start">
         <div

@@ -16,8 +16,8 @@
           :fadeEffect="{ crossFade: true }"
       >
         <div
-            class="w-0 h-full bg-black opacity-70 absolute top-0 left-0 z-10 xl:hidden lg:hidden transition-all overflow-hidden"
-            :class="{ 'w-1/2' : $store.state.isOpen }">
+            class="w-0 bg-black opacity-70 absolute top-0 left-0 z-10 xl:hidden lg:hidden transition-all overflow-hidden"
+            :class="{ 'w-1/2' : $store.state.isOpen } ">
           <AppMobileMenu/>
         </div>
         <swiper-slide
@@ -29,15 +29,12 @@
         </swiper-slide>
       </swiper>
     </div>
-    <a
-        class="flex justify-center items-center h-80"
-        href="/"
-    >
-      <button
-          class="w-56 h-10 max-sm:w-32 max-sm:h-10 max-md:w-40 text-lg max-sm:text-sm max-md:text-lg border rounded-sm hover:border-pink-600 transition-all duration-300">
+    <div
+        class="w-full h-96 flex justify-center items-center text-lg">
+        <span class="text-5xl max-sm:text-base max-md:text-[30px]">
         ABOUT US
-      </button>
-    </a>
+        </span>
+    </div>
 
     <div class="text-base md:text-lg lg:text-xl flex justify-center">
       <p class="w-2/4 text-center">
@@ -93,6 +90,6 @@ export default {
 
 <style>
 .swiper-wrapper {
-  height: 950px;
+  height: 100vh;
 }
 </style>
