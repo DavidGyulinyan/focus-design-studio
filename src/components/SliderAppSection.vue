@@ -9,7 +9,7 @@
           :loop="true"
           :pagination="{clickable: true}"
           :autoplay="{
-      delay: 7000,
+      delay: 3000,
       pauseOnMouseEnter: true
     }"
           :effect="'fade'"
@@ -36,9 +36,17 @@
         </span>
     </div>
 
+    <div>
+      <img :src="aboutImage" alt="About ">
+    </div>
+
     <div class="text-base md:text-lg lg:text-xl flex justify-center">
-      <p class="w-2/4 text-center max-md:w-4/5 max-lg:w-11/12">
+      <p class="w-2/4 text-justify max-md:w-4/5 max-lg:w-11/12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
+        eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
+        nisl congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
+        eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
+        nisl congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
         eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
         nisl congue.
       </p>
@@ -57,6 +65,7 @@ import {ref} from 'vue'
 import img1 from '../assets/testImagesFolder/7.jpg'
 import img2 from '../assets/testImagesFolder/7...jpg'
 import img3 from '../assets/testImagesFolder/7new.jpg'
+// import aboutImage from '../assets/testImagesFolder/about-image.jpg'
 
 export default {
   components: {Swiper, SwiperSlide, AppMobileMenu},

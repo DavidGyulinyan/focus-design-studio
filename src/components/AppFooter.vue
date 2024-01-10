@@ -38,16 +38,12 @@
   </footer>
 </template>
 <script>
-import AppLogo from "@/components/AppLogo.vue";
 import instagramLogo from '../assets/icons/instagram.svg'
 import facebookIcon from '../assets/icons/facebook.svg'
 import linkedinLogo from '../assets/icons/linkedin.svg'
 import {ref} from "vue";
 
 export default {
-  components: {
-    AppLogo,
-  },
   setup() {
     const logoIcons = ref([
       {

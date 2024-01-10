@@ -1,6 +1,6 @@
 <template>
-  <section class="w-full flex flex-col justify-center items-center mt-64">
-    <span class="text-5xl">Services</span>
+  <section class="w-full flex flex-col justify-center items-center mt-[170px]">
+    <span class="text-5xl uppercase">Projects</span>
     <div class="w-full flex justify-center items-center mt-40">
       <div class="w-full flex max-lg:flex-col justify-around items-center cursor-pointer gap-14">
         <div
@@ -9,7 +9,7 @@
             class="group w-full max-sm:w-full max-md:w-5/6 max-lg:w-11/12 h-full flex flex-col justify-center items-start gap-8 relative"
         >
           <div
-              class="w-full h-20 absolute bottom-0 left-0 z-10 text-pink-600 text-3xl bg-black opacity-70 pt-1 pl-5 group-hover:text-white transition-all max-max-md:text-3xl">
+              class="w-full h-14 absolute bottom-0 left-0 z-10 text-pink-600 text-4xl bg-black opacity-70 pl-5 group-hover:text-white transition-all max-max-md:text-3xl flex items-center">
             {{ item.title }}
           </div>
           <img
