@@ -29,28 +29,6 @@
         </swiper-slide>
       </swiper>
     </div>
-    <div
-        class="w-full h-96 flex justify-center items-center text-lg">
-        <span class="text-5xl max-sm:text-base max-md:text-[30px]">
-        ABOUT US
-        </span>
-    </div>
-
-    <div>
-      <img :src="aboutImage" alt="About ">
-    </div>
-
-    <div class="text-base md:text-lg lg:text-xl flex justify-center">
-      <p class="w-2/4 text-justify max-md:w-4/5 max-lg:w-11/12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
-        eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
-        nisl congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
-        eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
-        nisl congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed eros quis nisl vehicula ornare nec in
-        eros. Nam semper dolor mauris, ac volutpat arcu tempus id. Sed sagittis erat eget sapien vehicula, ac eleifend
-        nisl congue.
-      </p>
-    </div>
   </section>
 </template>
 
@@ -65,13 +43,12 @@ import {ref} from 'vue'
 import img1 from '../assets/testImagesFolder/7.jpg'
 import img2 from '../assets/testImagesFolder/7...jpg'
 import img3 from '../assets/testImagesFolder/7new.jpg'
-// import aboutImage from '../assets/testImagesFolder/about-image.jpg'
 
 export default {
   components: {Swiper, SwiperSlide, AppMobileMenu},
   props: {
     title: String,
-    isActive: Boolean,
+    isActive: Boolean
   },
 
   setup() {

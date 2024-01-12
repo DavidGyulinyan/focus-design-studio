@@ -2,6 +2,7 @@
   <main class="text-white relative">
     <AppHeader/>
     <SliderAppSection/>
+    <AppAboutUsHome/>
     <InteriorPhoto/>
     <ProjectTypeSection/>
     <AppTestimonials/>
@@ -16,4 +17,5 @@ import ProjectTypeSection from "@/components/ProjectTypeSection.vue";
 import InteriorPhoto from "@/components/InteriorPhoto.vue";
 import AppTestimonials from "@/components/AppTestimonials.vue";
 import AppFooter from "@/components/AppFooter.vue";
+import AppAboutUsHome from "@/components/AppAboutUsHome.vue";
 </script>
