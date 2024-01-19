@@ -1,6 +1,6 @@
 <template>
   <footer
-      class="w-full flex justify-center max-md:flex-col-reverse max-sm:flex-col-reverse max-sm:items-center max-md:items-center mt-64 mb-16 max-sm:gap-20 max-md:gap-40">
+      class="w-full text-white flex justify-center max-md:flex-col-reverse max-sm:flex-col-reverse max-sm:items-center max-md:items-center mt-64 mb-16 max-sm:gap-20 max-md:gap-40">
     <div
         class="w-1/2 max-sm:w-full max-md:w-full flex flex-col justify-center items-center max-sm:items-center max-md:items-center max-lg:items-center gap-5">
       <div

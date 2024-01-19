@@ -15,7 +15,6 @@
       {{ rout.name }}
     </button>
   </router-link>
-  <router-view/>
 </template>
 
 <script setup>

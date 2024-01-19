@@ -6,13 +6,13 @@ import JoinUsView from '../views/JoinUsView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
 import HomeView from '@/views/HomeView.vue'
 
-let homeRouter = [{
-  path: '/',
-  name: 'app',
-  component: HomeView
-}]
 
-let mainRouter = [
+let routes = [
+  {
+    path: '/',
+    name: "home",
+    component: HomeView
+  },
   {
     path: '/projects',
     name: 'projects',
@@ -43,7 +43,7 @@ let mainRouter = [
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [homeRouter, ...mainRouter]
+  routes: routes
 })
 
 export default router
