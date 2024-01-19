@@ -10,14 +10,25 @@
           {{ lang }}
         </div>
       </div>
-      <li
-          class="hover:border-pink-600 uppercase hover:text-pink-600 transition-all h-20 flex justify-center items-center"
-          v-for="item in $store.state.menuItems"
-          :key="item"
+      <RouterLink
+        v-for="rout in routes"
+        :to="{name: rout.name}"
+        :key="rout.name"
       >
-        {{ item.title }}
-      </li>
+        <li
+          class="hover:border-pink-600 uppercase hover:text-pink-600 transition-all h-20 flex justify-center items-center"
+        >
+          {{ rout.name}}
+        </li>
+      </RouterLink>
     </ul>
   </div>
 
 </template>
+
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const routes = router.getRoutes()
+</script>

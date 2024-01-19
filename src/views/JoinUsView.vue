@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main  class="text-white">
     join us
   </main>
 </template>

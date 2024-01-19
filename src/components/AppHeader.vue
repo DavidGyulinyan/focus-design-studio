@@ -1,29 +1,30 @@
 <template>
   <header
-      class="w-full fixed top-0 z-50 opacity-75 bg-black flex justify-between items-center sm:flex-row md:flex-row sm:justify-between md:justify-between">
-    <AppLogo/>
+    class="w-full fixed top-0 z-50 opacity-75 bg-black flex justify-between items-center sm:flex-row md:flex-row sm:justify-between md:justify-between">
+      <AppLogo @click="reloadPage"/>
     <div class="w-4/5 menu-items-wrapper flex justify-center items-center" v-show="$store.state.showMenu">
-      <MenuItems/>
+      <MenuItems />
     </div>
     <div class="w-48 flex flex-col justify-center items-center max-sm:hidden max-md:hidden max-lg:hidden">
       <span
-          v-for="lang in $store.state.languages"
-          :key="lang"
-          class="cursor-pointer"
+        v-for="lang in $store.state.languages"
+        :key="lang"
+        class="cursor-pointer"
       >
         {{ lang }}
       </span>
     </div>
     <div class="xl:hidden lg:hidden">
-      <AppToggleMobile/>
+      <AppToggleMobile />
     </div>
   </header>
 </template>
 
 <script>
-import MenuItems from './MenuItems.vue';
-import AppLogo from "@/components/AppLogo.vue";
-import AppToggleMobile from "@/components/AppToggleMobile.vue";
+import MenuItems from './MenuItems.vue'
+import AppLogo from '@/components/AppLogo.vue'
+import AppToggleMobile from '@/components/AppToggleMobile.vue'
+
 
 export default {
   components: {
@@ -31,7 +32,12 @@ export default {
     MenuItems,
     AppToggleMobile
   },
-};
+  methods:{
+    reloadPage() {
+      location.reload();
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -1,18 +1,29 @@
 <template>
-  <button
+  <router-link
+    v-for="rout in routes"
+    :to="{name: rout.name}"
+    :key="rout.name"
+  >
+    <button
       class="uppercase"
       :class="$store.commit('classes')"
-      v-for="item in $store.state.menuItems"
-      :key="item.title"
-      :is-active="$store.state.activeMenu === item.title"
-  >
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    {{ item.title }}
-  </button>
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      {{ rout.name }}
+    </button>
+  </router-link>
+  <router-view/>
 </template>
+
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const routes = router.getRoutes()
+</script>
 
 <style scoped>
 button {

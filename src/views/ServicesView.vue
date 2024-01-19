@@ -1,5 +1,6 @@
 <template>
-  <main>
+  <main class="text-white">
+    services
   </main>
 </template>
 

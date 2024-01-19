@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="text-white">
     projects
   </main>
 </template>

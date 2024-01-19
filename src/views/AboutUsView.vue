@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main  class="text-white">
     about us
   </main>
 </template>
