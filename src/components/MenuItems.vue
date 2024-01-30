@@ -1,6 +1,6 @@
 <template>
   <router-link
-    v-for="rout in routes"
+    v-for="rout in pagesRoutes"
     :to="{name: rout.name}"
     :key="rout.name"
   >
@@ -17,11 +17,16 @@
   </router-link>
 </template>
 
-<script setup>
-import { useRouter } from 'vue-router'
+<script>
+import { pagesRoutes } from '../router/pagesRoutes.js';
 
-const router = useRouter()
-const routes = router.getRoutes()
+export default {
+  data() {
+    return {
+      pagesRoutes: pagesRoutes,
+    };
+  },
+};
 </script>
 
 <style scoped>

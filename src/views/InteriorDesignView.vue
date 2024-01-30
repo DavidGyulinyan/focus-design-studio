@@ -1,7 +1,6 @@
 <template>
-  <main>
-    Interior design view page
-  </main>
+  <AppInteriorDesign />
 </template>
 <script setup>
+import AppInteriorDesign from '@/components/AppInteriorDesign.vue'
 </script>

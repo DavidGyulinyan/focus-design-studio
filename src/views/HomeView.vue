@@ -3,7 +3,7 @@
     <SliderAppSection/>
     <AppAboutUsHome/>
     <InteriorPhoto/>
-    <ProjectsView/>
+    <ProjectTypeSection/>
     <AppTestimonials/>
   </main>
 </template>
@@ -12,5 +12,5 @@ import SliderAppSection from '@/components/SliderAppSection.vue'
 import AppTestimonials from '@/components/AppTestimonials.vue'
 import AppAboutUsHome from '@/components/AppAboutUsHome.vue'
 import InteriorPhoto from '@/components/InteriorPhoto.vue'
-import ProjectsView from '@/views/ProjectsView.vue'
+import ProjectTypeSection from '@/components/ProjectTypeSection.vue'
 </script>

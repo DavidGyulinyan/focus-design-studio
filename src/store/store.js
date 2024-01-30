@@ -11,6 +11,13 @@ export default createStore({
         isOpen: false,
         isMobileMenuOpen: false,
         languages: ['Arm'],
+        menuItems:[
+          "projects",
+          "services",
+          "about us",
+          "join us",
+          "contact"
+        ]
        },
     mutations: {
         toggleMenu(state) {

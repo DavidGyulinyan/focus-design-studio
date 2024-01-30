@@ -10,7 +10,7 @@
           {{ lang }}
         </div>
       </div>
-      <RouterLink
+      <router-link
         v-for="rout in routes"
         :to="{name: rout.name}"
         :key="rout.name"
@@ -20,7 +20,7 @@
         >
           {{ rout.name}}
         </li>
-      </RouterLink>
+      </router-link>
     </ul>
   </div>
 
